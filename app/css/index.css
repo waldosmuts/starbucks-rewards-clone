@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+.reward__selected {
+  position: relative;
+}
+
+.reward__selected::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 0.25rem;
+  background-color: #008248;
+}
+
+.main__hero {
+  height: 800px;
+  background: top right -500px/cover no-repeat url("https://www.starbucks.com/weblx/images/rewards/hero/xl-hero-desktop_2021.png");
+}
+/*# sourceMappingURL=index.css.map */
